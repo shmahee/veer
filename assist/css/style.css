@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 75%;
+}
+
+
+
+/* NAVIGATION PART HERE  */
+
+.navigation {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 10pt;
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #31d7ce;
+    transition: all cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+}
+
+/* NAVIGATION PART END HERE  */
+
+
+
+/* BANNER PART HERE  */
+
+.banner {
+    background: url(../img/bg-banner.png);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_con {
+    padding-top: 25%;
+    text-align: center;
+}
+
+.banner_con h1 {
+    font-family: "poppins", sans-serif;
+    font-size: 45pt;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-weight: 700;
+    color: #31d7ce;
+}
+
+.banner_con button {
+    height: 50px;
+    width: 160px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #31d7ce;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* BANNER PART END HERE  */
+
+
+
+
+/* "WE ARE" PART HERE  */
+
+.we_are {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.we_are img {}
+
+.we-con h2 {
+    color: #000;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 5%;
+}
+
+.we-con p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.button button {
+    background-color: #0dac88;
+    border: 1px solid #0dac88;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+/* "WE ARE" PART END HERE  */
+
+
+
+
+
+/* SERVICE PART HERE  */
+
+.service {
+    height: 400px;
+}
+
+.con_text h2 {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 50px;
+    text-transform: capitalize;
+}
+
+.service_con {
+    height: 170px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_con:hover {
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    transition: all linear 0.3s;
+}
+
+.service_icon{
+    text-align: center;
+}
+
+.service_icon img {
+    height: 50px;
+    padding: 8px;
+    background-color: #31d7ce;
+    border-radius: 15px;
+}
+
+
+.service_text h6 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service_text p {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    text-align: start;
+}
+
+/* SERVICE PART END HERE  */
+
+
+
+
+
+/* WORK PART HERE  */
+
+.work {
+    height: 700px;
+}
+
+.work_con {
+    position: relative;
+    margin-top: 30px;
+}
+
+.overflow_wrk {
+    position: absolute;
+    /*left: 48%; */
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 100%;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.overflow_wrk a {
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.work_con:hover .overflow_wrk {
+    transform: scale(1);
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s;
+}
+
+/* WORK PART END HERE  */
+
+
+
+
+/* COUNTING PART HERE  */
+
+.counting {
+    background: url(../img/count_banner.png);
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coun {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.coun_con img {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.coun_con h1 {
+    color: #fff;
+    margin: 0;
+}
+
+.coun_con p {
+    color: #fff;
+}
+
+/* COUNTING PART END HERE  */
+
+
+
+
+
+/* RECENT PART HERE  */
+
+.recent {
+    height: 600px;
+}
+
+.recent_text {
+    margin-top: 20px;
+}
+
+.recent_text h4 {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 0px;
+    margin: 0;
+}
+
+.recent_text p {
+    font-size: 13px;
+    font-family: 'Poppins';
+    color: grey;
+    text-align: justify;
+}
+
+/* RECENT PART END HERE  */
+
+
+
+
+/* "WANT TO WORK WITH US" PART HERE */
+
+.wtws {
+    background-color: #50d18d;
+    height: 125px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.wtws spam {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.wtws button {
+    border: 1px solid #4be694;
+    background-color: #4be694;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin: 0;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* "WANT TO WORK WITH US" PART END HERE */
+
+
+
+
+
+/* FOOTER PART HERE  */
+
+.footer {
+    height: 300px;
+    background-color: #000415;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_footer {
+    width: 50%;
+}
+
+.footer_tet h5 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #dddee0;
+    margin: 8px 0px 0px;
+    ;
+}
+
+.bor_ft {
+    display: flex;
+    justify-content: center;
+}
+
+.stick {
+    height: 100%;
+    width: 2px;
+    background-color: #dddee0;
+}
+
+
+.footer_icon {
+    text-align: center;
+}
+
+.footer_icon a i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer_pt-2 p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/* FOOTER PART END HERE  */
+
+
+
+/* COPYRIGHT PART HERE  */
+
+.copyright {
+    background-color: #000415;
+    height: 50px;
+    text-align: center;
+}
+
+.copyright p {
+    font-family: 'Poppins', sans-serif;
+    color: #818181;
+}
+
+/* COPYRIGHT PART END HERE  */

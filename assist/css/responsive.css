@@ -1,0 +1,514 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (min-width: 320px) and (max-width: 575px) {
+
+
+     /* DEFAULT CHANGERS */
+
+     .container {
+         width: 90%;
+     }
+
+     .img-fluid {
+         width: 99%;
+     }
+
+     /* DEFAULT CHANGERS END */
+
+
+
+     /* NAVIGATION PART HERE  */
+
+     .navbar-light .navbar-toggler {
+         border: 0;
+         border-color: transparent;
+     }
+
+     .navbar-nav {
+         text-align: center;
+         margin: 20px ​0px;
+     }
+
+     /* NAVIGATION PART END HERE  */
+
+
+     /* BANNER PART HERE  */
+
+     .banner {
+         height: 600px;
+     }
+
+     .banner_con h1 {
+         font-size: 47px;
+         text-align: center;
+         letter-spacing: 1px;
+         padding: 110px 0px 15px;
+     }
+
+     /* BANNER PART END HERE  */
+
+
+
+
+     /* "WE ARE" PART HERE  */
+
+     .we_are {
+         height: auto;
+         margin-top: 40px;
+         text-align: center;
+     }
+
+     .we_are h2 {
+         margin-top: 7%;
+         margin-bottom: 20px;
+     }
+
+     /* "WE ARE" PART END HERE  */
+
+
+
+
+     /* SERVICE PART HERE  */
+
+     .service {
+         height: auto;
+     }
+
+     .con_text h2 {
+         padding-top: 110px;
+         font-size: 36px;
+     }
+
+     /* SERVICE PART END HERE  */
+
+
+
+     /* WORK PART HERE  */
+
+     .work {
+         height: 100%;
+         margin-bottom: 50px;
+         text-align: center;
+     }
+
+     /* WORK PART END HERE  */
+
+
+     /* COUNTING PART HERE  */
+
+     .counting {
+         height: auto;
+     }
+
+     /* COUNTING PART END HERE  */
+
+
+
+     /* RECENT PART HERE  */
+
+     .recent {
+         height: auto;
+         margin-bottom: 50px;
+     }
+
+     /* RECENT PART END HERE  */
+
+
+
+     /* "WANT TO WORK WITH US" PART HERE   */
+
+     .wtws spam {
+         font-size: 20px;
+     }
+
+     .wtws button {
+         margin-top: 8px;
+     }
+
+     /* "WANT TO WORK WITH US" PART END HERE   */
+
+
+     /* FOOTER PART HERE  */
+
+     .footer {
+         height: auto;
+         text-align: center;
+     }
+
+     .bor_ft {
+         display: none;
+     }
+
+     .container_footer {
+         width: 80%;
+     }
+
+     .footer_tet {
+         padding: 60px 0px;
+     }
+
+     .footer_tet h5 {
+         margin-top: 10px;
+     }
+
+     .first_ft_1 {
+         padding: 20px 0px;
+     }
+
+     .first_ft_2 {
+         padding: 0px 0px 40px 0px;
+     }
+
+     /* FOOTER PART END HERE  */
+
+
+
+     /* COPYRIGHT PART HERE  */
+
+     .copyright p {
+         font-size: 12px;
+         line-height: 50px;
+     }
+
+     /* COPYRIGHT PART END HERE  */
+
+
+
+
+ }
+
+ /* No media query for `xs` since this is the default in Bootstrap */
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767px) {
+
+
+     /* DEFAULT CHANGERS */
+
+     .container {
+         width: 90%;
+     }
+
+     .img-fluid {
+         width: 98%;
+         text-align: center;
+     }
+
+     /* DEFAULT CHANGERS END */
+
+
+     /* NAVIGATION PART HERE  */
+
+     .navbar-light .navbar-toggler {
+         border: 0;
+         border-color: transparent;
+     }
+
+     .navbar-nav {
+         text-align: center;
+         margin: 20px ​0px;
+     }
+
+     .navbar-nav .nav-item .nav-link {
+         font-size: 14pt;
+     }
+
+     /* NAVIGATION PART END HERE  */
+
+
+
+     /* BANNER PART HERE  */
+
+     .banner {
+         height: 750px;
+     }
+
+     .banner_con h1 {
+         font-size: 70px;
+         text-align: center;
+         letter-spacing: 1px;
+         padding: 110px 0px 15px;
+     }
+
+     /* BANNER PART END HERE  */
+
+
+
+     /* "WE ARE" PART HERE  */
+
+     .we_are {
+         height: auto;
+         margin-top: 40px;
+         margin-bottom: 40px;
+         text-align: center;
+     }
+
+     .we_are h2 {
+         margin-top: 7%;
+         margin-bottom: 20px;
+         font-size: 40px;
+     }
+
+     /* "WE ARE" PART END HERE  */
+
+
+
+
+     /* SERVICE PART HERE  */
+
+     .service {
+         height: auto;
+     }
+
+     .con_text h2 {
+         padding-top: 110px;
+         font-size: 50px;
+     }
+
+     .service_icon {
+         text-align: center;
+     }
+
+     /* SERVICE PART END HERE  */
+
+
+
+
+     /* WORK PART HERE  */
+
+     .work {
+         height: 100%;
+         margin-bottom: 50px;
+     }
+
+     /* WORK PART END HERE  */
+
+
+
+
+     /* COUNTING PART HERE  */
+
+     .counting {
+         height: auto;
+     }
+
+     /* COUNTING PART END HERE  */
+
+
+
+     /* RECENT PART HERE  */
+
+     .recent {
+         height: auto;
+         margin-bottom: 50px;
+     }
+
+     .recent_text {
+         margin-bottom: 40px;
+     }
+
+     .recent_text h4 {
+         font-size: 24px;
+         padding: 14px 0px;
+     }
+
+     .recent_text p {
+         font-size: 17px;
+     }
+
+     /* RECENT PART END HERE  */
+
+
+
+     /* "WANT TO WORK WITH US" PART HERE   */
+
+     .wtws spam {
+         font-size: 20px;
+     }
+
+     .wtws button {
+         margin-top: 8px;
+     }
+
+     /* "WANT TO WORK WITH US" PART END HERE   */
+
+
+
+     /* FOOTER PART HERE  */
+
+     .footer {
+         height: auto;
+         text-align: center;
+     }
+
+     .bor_ft {
+         display: none;
+     }
+
+     .container_footer {
+         width: 80%;
+     }
+
+     .footer_tet {
+         padding: 60px 0px;
+     }
+
+     .footer_tet img {
+         height: 35px;
+     }
+
+     .footer_tet h5 {
+         margin-top: 10px;
+         font-size: 30px;
+     }
+
+     .footer_icon a i {
+         font-size: 40px;
+         margin-bottom: 8px;
+     }
+
+     .first_ft_1 {
+         padding: 20px 0px;
+     }
+
+     .first_ft_2 {
+         padding: 0px 0px 40px 0px;
+         font-size: 20px;
+     }
+
+     /* FOOTER PART END HERE  */
+
+
+
+     /* COPYRIGHT PART HERE  */
+
+     .copyright p {
+         font-size: 18px;
+         line-height: 50px;
+     }
+
+     /* COPYRIGHT PART END HERE  */
+
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991px) {
+
+
+     /* DEFAULT CHANGERS */
+
+     .container {
+         width: 85%;
+     }
+
+     /* DEFAULT CHANGERS END */
+
+
+     /* NAVIGATION PART HERE  */
+
+     .navbar-light .navbar-toggler {
+         border: 0;
+         border-color: transparent;
+     }
+
+     .navbar-nav {
+         text-align: center;
+         margin: 20px ​0px;
+     }
+
+     /* NAVIGATION PART END HERE  */
+
+
+     /* BANNER PART HERE      */
+
+     .banner_con {
+         padding-top: 37%;
+         text-align: center;
+     }
+
+     .banner_con h1 {
+         font-size: 55pt;
+     }
+
+     /* BANNER PART END HERE      */
+
+
+
+     /* WE ARE PART HERE  */
+
+     .we_r-img {
+         display: flex;
+     }
+
+     .we-con h2 {
+         margin-top: 0;
+     }
+
+     .we-con p {
+         font-size: 10px;
+     }
+
+
+     .we_are {
+         height: auto;
+         margin-top: 40px;
+         margin-bottom: 40px;
+         text-align: start;
+     }
+
+     .we_are h2 {
+         margin-top: 0;
+         margin-bottom: 20px;
+         font-size: 40px;
+     }
+
+
+     /* WE ARE PART END HERE  */
+
+
+
+     /* SERVICE PART HERE  */
+
+     .service_text h6 {
+         font-size: 16px;
+     }
+
+     /* SERVICE PART END HERE  */
+
+
+
+     /* WORK PART HERE  */
+
+     .overflow_wrk {
+         width: 89%;
+     }
+
+     /* WORK PART END HERE  */
+
+
+     /* FOOTER PART HERE  */
+
+     .ft_con_text{
+         margin-top: 25%;
+     }
+
+     /* FOOTER PART END HERE  */
+
+ }
+
+ // Large devices (desktops, 992px and up)
+ @media (min-width: 992px) and (max-width: 1199px) {
+     ...
+ }
+
+ // X-Large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) and (max-width: 1399px) {
+     ...
+ }
+
+ // XX-Large devices (larger desktops, 1400px and up)
+ @media (min-width: 1400px) {
+     ...
+ }
